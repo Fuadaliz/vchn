@@ -1,0 +1,20 @@
+{
+  "name": "allegro-guitar-website",
+  "version": "1.0.0",
+  "description": "Gitar Allegro - Website for Allegro Guitar Shop in Bandung",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 3000 2>/dev/null || python -m http.server 3000 2>/dev/null || npx serve -s . -p 3000",
+    "start": "npm run dev",
+    "build": "echo 'Static site - no build process needed'"
+  },
+  "keywords": [
+    "guitar",
+    "allegro",
+    "bandung",
+    "music",
+    "acoustic"
+  ],
+  "author": "Allegro Guitar",
+  "license": "ISC"
+}
